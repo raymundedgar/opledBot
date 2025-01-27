@@ -1,9 +1,9 @@
-# OPEN LEDGER BOT 
+# OPEN LEDGER BOT
 
 ![banner](image.png)
 
 
-- Website [https://openledger.xyz](https://testnet.openledger.xyz/?referral_code=ccex4vipg4)
+- Website [https://openledger.xyz](https://testnet.openledger.xyz/?referral_code=773nbiosqy)
 - Twitter [@OpenledgerHQ](https://x.com/OpenledgerHQ)
 
 
@@ -21,7 +21,7 @@
 - **npm**: Ensure you have npm installed.
 
 - **Wallets from open-ledger account**: how to get ???
-- **Go To dashboard** [https://openledger.xyz](https://testnet.openledger.xyz/?referral_code=ccex4vipg4) and copy your wallet, look at image below:
+- **Go To dashboard** [https://openledger.xyz](https://testnet.openledger.xyz/?referral_code=773nbiosqy) and copy your wallet, look at image below:
 
    ![wallet](image-1.png)
 
@@ -29,7 +29,7 @@
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Zlkcyber/opledBot.git
+   git clone https://github.com/raymundedgar/opledBot.git
    cd opledBot
    ```
 2. Install dependencies:
