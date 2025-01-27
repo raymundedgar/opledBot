@@ -308,14 +308,7 @@ const main = async () => {
 
         while (!isConnected) {
             try {
-                let response = await generateToken({ address }, proxy);
-                while (!response || !response.token) {
-                    log.error(`Failed to generate token for account ${index} retrying...`)
-                    await new Promise(resolve => setTimeout(resolve, 3000));
-                    response = await generateToken({ address }, proxy);
-                }
-
-                const token = response.token;
+                const token = readFile("token.txt")[0];
 
                 log.info(`login success for Account ${index + 1}:`, token.slice(0, 36) + "-" + token.slice(-24));
                 log.info(`Getting user info and claim details for account ${index + 1}...`);
